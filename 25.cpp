@@ -9,7 +9,7 @@ int main()
 	}
 	for(i=0;i<=n;i++)
 	{
-	for(k=0;k<=(n-i-1);k++)
+	for(k=0;k<=(n-i+1);k++)
 	{ 
 		if(a[i]>a[k+1])
 		{
