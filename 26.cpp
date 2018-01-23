@@ -2,20 +2,20 @@
 using namespace std;
 int main()
 {
-	int a[200],i,n=4,k,temp;
+	int a[150],i,n=4,j,flag;
 	for(i=0;i<n;i++)
 	{
 		cin>>a[i];
 	}
 	for(i=0;i<n;i++)
 	{
-	for(k=i+1;k<n;k++)
+	for(j=i+1;j<n;j++)
 	{ 
-		if(a[i]>a[k])
+		if(a[i]>a[j])
 		{
-	    temp=a[i];
-	    a[i]=a[k];
-	   a[k]= temp;
+	    flag=a[i];
+	    a[i]=a[j];
+	   a[j]= flag;
 	}
 	}
 	}
