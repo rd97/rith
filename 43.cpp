@@ -5,7 +5,7 @@ int main()
 {
 char a[100]="its me rd";
 char s[100]="karur";
-int i,j;
+char i,j;
 for(i=0;a[i]!='\0';i++)
 {
 	for(j=0;s[j]!='\0';j++)
@@ -16,9 +16,9 @@ for(i=0;a[i]!='\0';i++)
     	a[100]=s[100];
     }*/
     s[i]='\0';
-	
+	i++;
 
-    cout<<a[100];
+    cout<<a<<s;
 }
  return 0;
     }
