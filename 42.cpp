@@ -4,15 +4,15 @@ using namespace std;
 
 int main() {
 	char q[20]="helloworld";
-	char s[40]="jellybean";
+	char s[40]="jellybeanfine";
 	int a,b;
 	a=strlen(q);
 	b=strlen(s);
-	if((a>b) || (a=b))
+	if(a>=b)
 	{
 		cout<<q;
 	}
-	else if(a<b)
+	else 
 	{
 		cout<<s;
 	}
