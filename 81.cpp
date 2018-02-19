@@ -2,11 +2,15 @@
 using namespace std;
 int main()
 {
-   int kabali,opponent,i,dif;
+   int kabali[50],opponent[20],i,dif;
   for(i=0;i<=2;i++)
-   { cout<<"enter two war battele num:";
-       cin>>kabali>>opponent;
-       dif=kabali-opponent;
+   { 
+       cout<<"enter two war battele num:";
+       cin>>kabali[i]>>opponent[i];
+   }
+   for(i=0;i<=2;i++)
+   {
+    dif=kabali[i]-opponent[i];
    if(dif<0)
    {
    dif=-dif;
