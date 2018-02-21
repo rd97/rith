@@ -16,9 +16,9 @@ n=n/2;
 }
 if(flag==1)
 {
-cout<<"The no. is not power of 2";
+cout<<"yes";
 }
 else
-cout<<"The no. is power of 2";
+cout<<"no";
 return 0;
 }
