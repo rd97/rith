@@ -1,20 +1,20 @@
-#include <stdio.h>
+#include <iostream>
+using namespace std;
 #include<string.h>
-int main(void) 
+int main() 
 {
 	char a[100];
     int n,i;
-    scanf("%[^\t\n]s",a);
-    n=strlen(a);
+    gets(a);
     a[0]=a[0]-32;
-    for(i=0;i<n;i++)
+    for(i=0;i<10;i++)
     {
       if(a[i]==' ')
       {
           a[i+1]=a[i+1]-32;
       }
     }
-    printf("%s",a);
+    cout<<a;
 	
 	return 0;
 }
